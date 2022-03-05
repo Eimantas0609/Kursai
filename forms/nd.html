@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registracijos forma</title>
+    </head> 
+    <body>
+        <h1>Register</h1>
+        <form action="./congrat.html">
+            <label for="fname">
+                <div>*First name:</div>
+                <input type="text" required>
+            </label>
+    
+            <label for="lname">
+                <div>*Last name:</div>
+                <input type="text" required>
+                
+            </label>
+    
+            <label for="email">
+                <div>email:</div>
+                <input name="email" type="email" required>
+            </label>
+
+            <h3>Description</h3>
+
+            <textarea maxlength="200" > 
+            </textarea>
+
+            <label for="gender">
+                <div>Gender</div>
+                <input name="gender" type="radio">Male
+                <input name="gender" type="radio">Female
+            </label>
+
+        <div>
+            <label for="date">Date of birth</label>
+            <input type="date" required>
+        </div>
+
+        <label for="city of birth">
+            <div>City of birth</div>
+        </label>
+
+        <select name="city" id="city">
+
+            <option value="">-your city of birth-</option>
+            <option Value="Kaunas">Kaunas</option>
+            <option Value="Vilnius">Vilnius</option>
+            <option Value="Ukmerge">Ukmerge</option>
+            <option Value="Utena">Utena</option>
+            <option Value="Jonava">Jonava</option>
+
+        </select>
+
+        <label for="address">
+            <div>Address</div>
+            <input name="address" type="address">
+        </label>
+
+        <label for="subscribe">
+            <div>Subscribe to newslater</div>
+            <input name="subscribe" type="checkbox">
+        </label>
+                        
+
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+   
+            
+        <div>
+            <button  type="text">Registration</button>
+        
+        </div>
+
+        </form>
+
+    </body>
+</html>
