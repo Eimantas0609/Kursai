@@ -1,0 +1,26 @@
+.kubelis
+    {
+        width: 160px;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+
+        }
+        .antras {
+            background: rgb(0, 128, 49);
+            
+        }
+        .pirmas{
+            background: rgb(255, 123, 0);
+            
+        }
+        .trecias{
+            background: rgb(47, 172, 255);
+            
+        } 
+        body{
+            background:rgb(0, 255, 55);
+            margin: 50;
+            
+        }
