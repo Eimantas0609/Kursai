@@ -1,0 +1,133 @@
+.kubas, .staciakampis {
+    width: 60px;
+    height: 60px;
+    background: green;
+    border: 4px solid black; 
+    margin-bottom: 20px;
+    color: blue;
+    
+} 
+.staciakampis span  {
+    color: blue;
+}
+.kubas div {
+    color: brown;
+}
+.staciakampis {
+    width: 100px;
+    background: red ;
+}
+.kubas.kitoks-kubas {
+    background: yellow;
+}
+input[type=text] {
+    background: goldenrod;
+
+}
+a:visited {
+   color:blue 
+}
+input:invalid {
+    border: 1px solid black;
+}
+button:disabled {
+background: purple;
+}
+input[type=text] {
+background: yellow;
+}
+input[type=number] {
+    background: green;
+}
+input[type=email] {
+  background: red; 
+}
+a:hover {
+    background: green;
+}
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+td:nth-of-type(even) {
+    background: rgb(0, 255, 64);
+}
+td:nth-of-type(odd) {
+    background: rgb(128, 0, 17);
+}
+
+td {
+    border: 1px solid black;
+}
+tr:nth-of-type(even) {
+    background: red;
+}
+tr:nth-of-type(odd) {
+    background: green;
+}
+tr:nth-of-type(even) td:nth-of-type(even) {
+    background: yellow;
+}
+tr:nth-of-type(odd) td:nth-of-type(odd) {
+    background: blue;
+} 
+.element {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: violet;
+    position: relative;
+
+}
+.parent {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background: rgb(159, 130, 238);
+    position: relative;
+
+}
+.child {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgb(197, 238, 130);
+   right: 50px;
+    position: absolute;
+
+}
+.grandchild {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background: rgb(238, 130, 130);
+    position: absolute;
+    top:30%;
+    left: 50%;
+    
+
+}
+.fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: cyan;
+    bottom: 0;
+    right: 0;
+}
+.container {
+    margin-top: 20px;
+    width: 262px;
+    height: 262px;
+    background: red;
+    position: relative;
+}
+.cube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82px;
+    height: 82px;
+    background: blueviolet;
+}
