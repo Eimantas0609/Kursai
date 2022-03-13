@@ -1,0 +1,87 @@
+.landing {
+    background: url("../assets/background.png");
+    display: flex;
+    justify-content: space-between;
+    margin-top: -193px;
+    padding: 213px 56px 78px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 74px;
+}
+
+.dashed,
+.landing h2,
+.landing h4 {
+    color: #3d2514;
+    margin-bottom: 26px;
+}
+
+.dashed {
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    border: 1px dashed #3d2514;
+    color: #3d2514;
+    padding: 12px 18px 10px;
+}
+
+.landing h2,
+.landing h4 {
+    font-family: "Alfa Slab One", cursive;
+    text-shadow: 4px 4.5px 0 #fee8bc;
+    text-transform: uppercase;
+}
+
+.landing h2 {
+    font-size: 91px;
+}
+
+.landing h4 {
+    font-size: 44px;
+}
+
+.burger-image {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: "Bebas Neue", cursive;
+    height: 174px;
+    width: 174px;
+    display: flex;
+    background-color: #bf2222;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    height: 152px;
+    width: 152px;
+    border: 2px dashed #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+.price-top :first-child {
+    font-size: 52px;
+}
+
+.price-top :last-child {
+    font-size: 20px;
+}
+
+.price :last-child {
+    font-size: 26px;
+}
