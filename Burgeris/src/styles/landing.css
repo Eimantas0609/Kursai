@@ -1,87 +1,111 @@
 .landing {
-    background: url("../assets/background.png");
-    display: flex;
-    justify-content: space-between;
-    margin-top: -193px;
-    padding: 213px 56px 78px;
+  background: url("../assets/background.png");
+  display: flex;
+  justify-content: space-between;
+  margin-top: -193px;
+  padding: 213px 56px 78px;
 }
 
 .headings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 74px;
 }
 
 .dashed,
 .landing h2,
 .landing h4 {
-    color: #3d2514;
-    margin-bottom: 26px;
+  color: #3d2514;
+  margin-bottom: 26px;
 }
 
 .dashed {
-    font-family: "Bebas Neue", cursive;
-    font-size: 24px;
-    border: 1px dashed #3d2514;
-    color: #3d2514;
-    padding: 12px 18px 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  border: 1px dashed #3d2514;
+  color: #3d2514;
+  padding: 12px 18px 10px;
 }
 
 .landing h2,
 .landing h4 {
-    font-family: "Alfa Slab One", cursive;
-    text-shadow: 4px 4.5px 0 #fee8bc;
-    text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 4px 4.5px 0 #fee8bc;
+  text-transform: uppercase;
 }
 
 .landing h2 {
-    font-size: 91px;
+  font-size: 91px;
 }
 
 .landing h4 {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 .burger-image {
-    position: relative;
+  position: relative;
+}
+.burger-image img {
+  position: relative;
+  z-index: 2;
+}
+.glow {
+  z-index: 1;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 -60px 160px 216px #ffde9c;
 }
 
 .circle {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    font-family: "Bebas Neue", cursive;
-    height: 174px;
-    width: 174px;
-    display: flex;
-    background-color: #bf2222;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: "Bebas Neue", cursive;
+  height: 174px;
+  width: 174px;
+  display: flex;
+  background-color: #bf2222;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .price {
-    height: 152px;
-    width: 152px;
-    border: 2px dashed #ffffff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: #ffffff;
+  height: 151px;
+  width: 151px;
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.price-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 .price-top :first-child {
-    font-size: 52px;
+  font-size: 70px;
 }
 
 .price-top :last-child {
-    font-size: 20px;
+  font-size: 32px;
 }
 
 .price :last-child {
-    font-size: 26px;
+  font-size: 34px;
+  letter-spacing: 12px;
+  margin-right: -10px;
 }

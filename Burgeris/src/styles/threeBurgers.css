@@ -1,0 +1,49 @@
+.threeBurgers {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 50px;
+}
+.oneBurger {
+  flex: 0 0 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+}
+.oneBurger img {
+  min-width: 100%;
+  margin-bottom: 28px;
+}
+.oneBurger h4 {
+  font-family: "Bebas Neue", cursive;
+  color: #3d2514;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.oneBurger h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.oneBurger p {
+  font-family: "Montserrat", sans-serif;
+  width: 367px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #3d2514;
+  margin-bottom: 36px;
+}
+.oneBurger button {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 18px;
+  color: #fff;
+  background: #bf2222;
+  padding: 0 36px;
+  height: 48px;
+}

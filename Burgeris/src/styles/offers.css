@@ -1,0 +1,33 @@
+.offers {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+  margin: auto;
+  padding: 70px 108px;
+}
+.burgerHeadings {
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  color: #ffffff;
+  width: 33%;
+}
+.relative {
+  position: relative;
+}
+.burgerHeadings h4 {
+  font-size: 28px;
+}
+.burgerHeadings h2 {
+  font-size: 36px;
+}
+.half-width {
+  width: 50%;
+}
+.twoCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

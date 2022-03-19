@@ -1,48 +1,47 @@
-    /* 
+/* 
 font-family: 'Alfa Slab One', cursive;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Montserrat', sans-serif;
 */
 body {
-    font-family:'Bebas Neue', cursive ;
+  font-family: "Bebas Neue", cursive;
 }
 header {
-    display: flex;
-    margin: 50px 50px;
-    justify-content: space-between;    
+  display: flex;
+  margin: 50px 50px;
+  justify-content: space-between;
 }
 .logo {
-    height: 58px;
+  height: 58px;
 }
 .express-container {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-bottom: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 26px;
 }
 .express-container img {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 .express-container div {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 700;      
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
-.express-container div, .right-side nav a {
-    color: #3d2514;
-    font-weight: 700;
+.express-container div,
+.right-side nav a {
+  color: #3d2514;
+  font-weight: 700;
 }
 .right-side nav a {
-    font-family:'Bebas Neue', cursive ;
-    font-size: 22px;
-    letter-spacing: 4px;  
-    margin: 0 26px;   
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  letter-spacing: 4px;
+  margin: 0 26px;
 }
 .right-side nav a:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 .right-side nav a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
-
-

@@ -1,0 +1,79 @@
+footer {
+  position: relative;
+  max-width: 1326px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+footer .topSide {
+  position: absolute;
+  top: 84px;
+  left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .topSide .logo-wraper {
+  flex: 0 0 100%;
+  margin-bottom: 48px;
+}
+footer .contactsText {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer .contacts {
+  margin-right: 120px;
+}
+
+footer .topSide p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: #ffff;
+  line-height: 25px;
+  width: 45%;
+}
+footer .contacts li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+footer .contacts span {
+  font-size: 21px;
+  color: #ffff;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  margin-left: 34px;
+}
+
+footer .bottomSide {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px 30px;
+  right: 14px;
+  bottom: 0px;
+}
+footer .bottomSide li {
+  font-size: 21px;
+  margin-bottom: 16px;
+  margin-left: -12px;
+}
+
+footer .bottomSide img {
+  margin-right: 34px;
+}
+
+footer .bottomSide .socialMedia {
+  display: flex;
+}
+
+small {
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+  font-size: 17px;
+  color: #ffff;
+  padding-left: 26px;
+}
