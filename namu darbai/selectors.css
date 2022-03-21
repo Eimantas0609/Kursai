@@ -17,7 +17,7 @@ p {
     background: yellow;
 }
 input {    
-    border: 3px red;
+    border: 3px solid red;
 }
 #special {
     border: 2px solid rgb(0,0,255);
@@ -41,8 +41,8 @@ div:nth-of-type(3) p {
     background: pink    
 }
 
-div:nth-of-type(3) :last-child {
-    border: 5pxx white;
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5pxx solid white;
 }
 div:nth-of-type(3) em {
     color:white;

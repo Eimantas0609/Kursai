@@ -42,7 +42,7 @@
     background: blue;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     height: 300px;
 }

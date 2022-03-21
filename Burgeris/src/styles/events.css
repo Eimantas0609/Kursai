@@ -48,7 +48,7 @@
   margin-right: 4px;
   background: #dcdcdc;
 }
-.events li :first-of-type {
+.events li:first-of-type {
   background: #ffc045;
 }
 

@@ -36,11 +36,11 @@
 }
 
 .landing h2 {
-  font-size: 91px;
+  font-size: 114px;
 }
 
 .landing h4 {
-  font-size: 44px;
+  font-size: 62px;
 }
 
 .burger-image {
@@ -78,6 +78,7 @@
 }
 
 .price {
+  font-family: "Bebas Neue", cursive;
   height: 151px;
   width: 151px;
   border: 2px dashed #ffffff;
@@ -94,6 +95,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  /* vertical-align: bottom; */
 }
 
 .price-top :first-child {

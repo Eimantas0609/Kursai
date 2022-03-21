@@ -47,3 +47,10 @@
   padding: 0 36px;
   height: 48px;
 }
+.oneBurger button :hover {
+   {
+    border: 1px solid #bf2222;
+    background: #ffc045;
+    cursor: pointer;
+  }
+}

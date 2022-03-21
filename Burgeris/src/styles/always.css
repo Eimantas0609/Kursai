@@ -29,3 +29,7 @@
   color: #3d2514;
   text-align: center;
 }
+.alwaysTastyBurger button :hover {
+  font-size: 150%;
+  color: red;
+}

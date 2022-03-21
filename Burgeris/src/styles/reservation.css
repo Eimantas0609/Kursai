@@ -85,4 +85,9 @@
   font-size: 21px;
   outline: none;
   width: 238px;
+  cursor: grab;
 }
+/* .reservation button :hover { 
+  font-size: 150%;
+  border: 2px solid red;
+ } */
