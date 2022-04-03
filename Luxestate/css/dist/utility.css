@@ -1,0 +1,12 @@
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -1;
+  color: #1f373d;
+}
+/*# sourceMappingURL=utility.css.map */

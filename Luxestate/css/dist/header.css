@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -1;
+  color: #1f373d;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: #1f373d;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #1f373d;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 18px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__navigation-menu {
+  position: relative;
+  order: 1;
+}
+
+@media (max-width: 1024px) {
+  .header__navigation-menu .header__navigation-links {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    border: 1px solid #1f373d;
+    border-radius: 5px;
+  }
+  .header__navigation-menu:focus .header__navigation-links, .header__navigation-menu:focus-within .header__navigation-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.header__burger-menu {
+  width: 32px;
+  height: 32px;
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.header__navigation-link {
+  width: 100%;
+  padding: 15px 16px 14px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.header__navigation-link:hover {
+  border-bottom: 1px solid #1f373d;
+}
+
+.header__getting-started-wrapper {
+  display: none;
+  margin-left: 100px;
+}
+
+.header__getting-started-button {
+  background: #ffcc01;
+  border-radius: 5px;
+  padding: 15px 22px 14px;
+  white-space: nowrap;
+  transition: background-color 300ms ease-in-out;
+}
+
+.header__getting-started-button:hover {
+  background-color: #96bece;
+}
+
+@media (min-width: 768px) {
+  .header__getting-started-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__navigation-menu {
+    order: 0;
+  }
+  .header__burger-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */

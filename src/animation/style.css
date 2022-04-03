@@ -1,0 +1,15 @@
+.hover-me {
+  position: relative;
+}
+
+.hover-me menu {
+  position: absolute;
+  left: -100px;
+  -webkit-transition: left 500ms linear;
+  transition: left 500ms linear;
+}
+
+.hover-me:hover menu {
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */

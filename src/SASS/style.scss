@@ -1,42 +1,41 @@
-@import "mixin";
 @mixin cube($dimensions: 100px, $spalva: green) {
-  width: $dimensions;
-  height: $dimensions;
-  background: $spalva;
+	width: $dimensions;
+	height: $dimensions;
+	background: $spalva;
 }
 @mixin flex-layout($horizontal: center, $vertical: center) {
-  display: flex;
-  justify-content: $horizontal;
-  align-content: $vertical;
+	display: flex;
+	justify-content: $horizontal;
+	align-content: $vertical;
 }
 %border {
-  border: 2px solid black;
-  border-radius: 50%;
+	border: 2px solid black;
+	border-radius: 50%;
 }
 
 div {
-  //   background: $spalva;
-  @include cube;
-  @extend %border;
-  //   width: 150px;
-  //   height: 150px;
-  div {
-    @include cube(75px, red);
-    // width: 75px;
-    // height: 75px;
-    div {
-      //   background: blue;
-      @include cube(50px, blue);
-      //   width: 50px;
-      //   height: 50px;
-    }
-  }
+	//   background: $spalva;
+	@include cube;
+	@extend %border;
+	//   width: 150px;
+	//   height: 150px;
+	div {
+		@include cube(75px, red);
+		// width: 75px;
+		// height: 75px;
+		div {
+			//   background: blue;
+			@include cube(50px, blue);
+			//   width: 50px;
+			//   height: 50px;
+		}
+	}
 }
 .flex {
-  @include flex-layout(flex-start, flex-end);
-  height: 100px;
-  background: yellow;
-  width: 300px;
-  color: black;
-  font-size: 25px;
+	@include flex-layout(flex-start, flex-end);
+	height: 100px;
+	background: yellow;
+	width: 300px;
+	color: black;
+	font-size: 25px;
 }

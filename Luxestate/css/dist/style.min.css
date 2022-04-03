@@ -1,0 +1,2 @@
+div{border:2px solid black;border-radius:50%}div{width:100px;height:100px;background:green}div div{width:75px;height:75px;background:red}div div div{width:50px;height:50px;background:blue}.flex{display:flex;justify-content:flex-start;align-content:flex-end;height:100px;background:yellow;width:300px;color:black;font-size:25px}
+/*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import "../theme";
+@import "../utility";
+// breakpoints
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Colors
+
+$text-color: #1f373d;
+$primary: #ffcc01;
+$secondary: #96bece;
+
+// Sizes
+
+$text-size: 13px;
+
+// border
+
+$border-radius: 5px;
+$border-color: #1f373d;
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: $text-color;
+}
+
+@mixin flex-layout($horizontal: center, $vertical: center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: $text-color;
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+    @include flex-layout(space-between, center);
+    padding: 26px 18px;
+}
+
+.header__navigation {
+    @include flex-layout(flex-end, center);
+}
+
+.header__navigation-menu {
+    position: relative;
+    order: 1;
+
+    @media (max-width: $desktop) {
+        .header__navigation-links {
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: 0;
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+        }
+
+        &:focus,
+        &:focus-within {
+            .header__navigation-links {
+                @include flex-layout;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.header__burger-menu {
+    width: 32px;
+    height: 32px;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+.header__navigation-link {
+    width: 100%;
+    padding: 15px 16px 14px;
+    font-size: $text-size;
+    text-align: center;
+
+    &:hover {
+        border-bottom: 1px solid $border-color;
+    }
+}
+
+.header__getting-started-wrapper {
+    display: none;
+    margin-left: 100px;
+}
+
+.header__getting-started-button {
+    background: $primary;
+    border-radius: $border-radius;
+    padding: 15px 22px 14px;
+    white-space: nowrap;
+    transition: background-color 300ms ease-in-out;
+
+    &:hover {
+        background-color: $secondary;
+    }
+}
+
+@media (min-width: $tablet) {
+    .header__getting-started-wrapper {
+        @include flex-layout(space-between, center)
+    }
+}
+
+@media (min-width: $desktop) {
+    .header__navigation-menu {
+        order: 0;
+    }
+
+    .header__burger-menu {
+        display: none;
+    }
+}
+
+// landing
+
+
+
+
+
+
+ 
