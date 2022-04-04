@@ -449,66 +449,65 @@ body {
 			transform: translateY(-50%);
 			pointer-events: none;
 		}
-	}
 
-	input {
-		display: block;
-		background: $white;
-		padding: 18px 32px 17px;
-		border-top-left-radius: $border-radius;
-		border-bottom-left-radius: $border-radius;
-		border-style: none;
-		outline-style: none;
+		input {
+			display: block;
+			background: $white;
+			padding: 18px 32px 17px;
+			border-top-left-radius: $border-radius;
+			border-bottom-left-radius: $border-radius;
+			border-style: none;
+			outline-style: none;
 
-		@media (min-width: $tablet) {
-			padding: 18px 58px 17px;
+			@media (min-width: $tablet) {
+				padding: 18px 58px 17px;
+			}
+
+			@media (min-width: $desktop) {
+				padding: 22px 68px 21px;
+				width: 308px;
+			}
 		}
 
-		@media (min-width: $desktop) {
-			padding: 22px 68px 21px;
-			width: 308px;
+		.search-button {
+			background: $primary;
+			padding: 18px 18px 17px;
+			font-weight: 500;
+			border-top-right-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
+
+			@media (min-width: $tablet) {
+				padding: 18px 34px 17px;
+			}
+
+			@media (min-width: $desktop) {
+				padding: 22px 34px 21px;
+			}
 		}
 	}
 
-	button {
-		background: $primary;
-		padding: 18px 18px 17px;
+	.appartments__view-all-button {
+		font-size: 15px;
 		font-weight: 500;
-		border-top-right-radius: $border-radius;
-		border-bottom-right-radius: $border-radius;
+		padding: 18px 18px 17px;
+		border-radius: $border-radius;
+		background-color: $white;
+		border: 1px solid transparent;
+		margin-bottom: 24px;
+		margin-left: 30px;
+
+		&:hover {
+			border: 1px solid $border-color;
+		}
 
 		@media (min-width: $tablet) {
 			padding: 18px 34px 17px;
+			margin-bottom: 0;
 		}
 
 		@media (min-width: $desktop) {
-			padding: 22px 34px 21px;
+			padding: 30px 48px 28px;
 		}
-	}
-}
-
-.appartments__view-all-button {
-	text-transform: capitalize;
-	font-size: 15px;
-	font-weight: 500;
-	padding: 18px 18px 17px;
-	border-radius: $border-radius;
-	background-color: $white;
-	border: 1px solid transparent;
-	margin-bottom: 24px;
-	transition: border 300ms linear;
-
-	&:hover {
-		border: 1px solid $border-color;
-	}
-
-	@media (min-width: $tablet) {
-		padding: 18px 34px 17px;
-		margin-bottom: 0;
-	}
-
-	@media (min-width: $desktop) {
-		padding: 30px 48px 28px;
 	}
 }
 
@@ -516,6 +515,7 @@ body {
 
 .how__container {
 	padding: 0 18px;
+	margin-bottom: 90px;
 	.how__title {
 		// width: 33%;
 		@media (min-width: $tablet) {
@@ -595,3 +595,111 @@ body {
 		}
 	}
 }
+
+// ------services------
+
+.services__container {
+	padding: 0 18px;
+}
+.services__text {
+	h2 {
+		font-size: 40px;
+		letter-spacing: -1px;
+		line-height: 50px;
+		color: #1f373d;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	p {
+		width: 361px;
+		height: 61px;
+		font-size: 13px;
+		letter-spacing: 0px;
+		line-height: 30px;
+		color: #1f373d;
+		font-weight: 400;
+		margin-bottom: 65px;
+	}
+}
+
+.services__tips {
+	display: flex;
+	@media (max-width: $mobile) {
+		flex-direction: column;
+	}
+	@media (min-width: $tablet) {
+		flex-direction: row;
+	}
+	.services__sorts-box {
+		width: 100%;
+		height: 330px;
+		background-color: #acd1e1;
+		margin-right: 62px;
+		@media (min-width: $tablet) {
+			width: 60%;
+			height: 630px;
+		}
+	}
+	.services__sorts {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 100%;
+		@media (min-width: $tablet) {
+			width: 40%;
+		}
+
+		.services__sort {
+			h4 {
+				font-size: 25px;
+				letter-spacing: $space;
+				line-height: 50px;
+				color: $text-color;
+				font-weight: 600;
+				padding-bottom: 10px;
+				@media (min-width: $desktop) {
+					padding-bottom: 30px;
+				}
+			}
+			p {
+				font-size: $text-size;
+				line-height: 18px;
+				color: $text-color;
+				font-weight: 400;
+				padding-bottom: 30px;
+				@media (min-width: $desktop) {
+					padding-bottom: 60px;
+				}
+			}
+		}
+	}
+}
+
+// ----------AGENTS-----------
+
+.agents__container {
+}
+.agents__info {
+}
+.agents__persons-container {
+	.agents__person {
+		.agents__id-card {
+			.agents__img {
+			}
+			.agents__id-footer {
+				small {
+				}
+				span {
+				}
+			}
+			.agents__contact {
+				a {
+				}
+			}
+		}
+	}
+}
+
+// -----ADD-----
+
+// ------FOOTER-----
