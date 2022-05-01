@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<title>Star wars persons</title>
+	</head>
+	<body>
+		<section class="container">
+			<h1>Star wars table</h1>
+			<div class="">
+				<button onclick="renderTableData(characters)">All characters</button>
+				<button onclick="renderTableData(allMass)">Mass greater than 80</button>
+				<button onclick="renderTableData(allHeight)">
+					Height lesser than 180
+				</button>
+				<button onclick="renderTableData(allGender)">Male characters</button>
+				<button onclick="renderTableData(allEye)">Blue eyes</button>
+			</div>
+			<table class="table table-striped table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th onclick="renderTableData(nameAbc)" scope="col">Name</th>
+						<th onclick="renderTableData(heightUp)" scope="col">Height</th>
+						<th onclick="renderTableData(heightUp)" scope="col">Mass</th>
+						<th onclick="renderTableData(characters)" scope="col">Eye color</th>
+						<th onclick="renderTableData(characters)" scope="col">Gender</th>
+					</tr>
+				</thead>
+
+				<tbody id="table" class=""></tbody>
+			</table>
+		</section>
+		<script src="object.js"></script>
+	</body>
+</html>

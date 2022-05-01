@@ -550,7 +550,7 @@ body {
   pointer-events: none;
 }
 
-.appartments__finder input {
+.appartments__finder .input__wrapper input {
   display: block;
   background: #ffff;
   padding: 18px 32px 17px;
@@ -561,19 +561,19 @@ body {
 }
 
 @media (min-width: 768px) {
-  .appartments__finder input {
+  .appartments__finder .input__wrapper input {
     padding: 18px 58px 17px;
   }
 }
 
 @media (min-width: 1024px) {
-  .appartments__finder input {
+  .appartments__finder .input__wrapper input {
     padding: 22px 68px 21px;
     width: 308px;
   }
 }
 
-.appartments__finder button {
+.appartments__finder .input__wrapper .search-button {
   background: #ffcc01;
   padding: 18px 18px 17px;
   font-weight: 500;
@@ -582,19 +582,18 @@ body {
 }
 
 @media (min-width: 768px) {
-  .appartments__finder button {
+  .appartments__finder .input__wrapper .search-button {
     padding: 18px 34px 17px;
   }
 }
 
 @media (min-width: 1024px) {
-  .appartments__finder button {
+  .appartments__finder .input__wrapper .search-button {
     padding: 22px 34px 21px;
   }
 }
 
-.appartments__view-all-button {
-  text-transform: capitalize;
+.appartments__finder .appartments__view-all-button {
   font-size: 15px;
   font-weight: 500;
   padding: 18px 18px 17px;
@@ -602,28 +601,29 @@ body {
   background-color: #ffff;
   border: 1px solid transparent;
   margin-bottom: 24px;
-  transition: border 300ms linear;
+  margin-left: 30px;
 }
 
-.appartments__view-all-button:hover {
+.appartments__finder .appartments__view-all-button:hover {
   border: 1px solid #1f373d;
 }
 
 @media (min-width: 768px) {
-  .appartments__view-all-button {
+  .appartments__finder .appartments__view-all-button {
     padding: 18px 34px 17px;
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .appartments__view-all-button {
+  .appartments__finder .appartments__view-all-button {
     padding: 30px 48px 28px;
   }
 }
 
 .how__container {
   padding: 0 18px;
+  margin-bottom: 90px;
 }
 
 @media (min-width: 768px) {
@@ -711,5 +711,101 @@ body {
   font-weight: 600;
   border-bottom: 3px solid #1f373d;
   padding-bottom: 12px;
+}
+
+.services__container {
+  padding: 0 18px;
+}
+
+.services__text h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  color: #1f373d;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.services__text p {
+  width: 361px;
+  height: 61px;
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #1f373d;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+
+.services__tips {
+  display: flex;
+}
+
+@media (max-width: 375px) {
+  .services__tips {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .services__tips {
+    flex-direction: row;
+  }
+}
+
+.services__tips .services__sorts-box {
+  width: 100%;
+  height: 330px;
+  background-color: #acd1e1;
+  margin-right: 62px;
+}
+
+@media (min-width: 768px) {
+  .services__tips .services__sorts-box {
+    width: 60%;
+    height: 630px;
+  }
+}
+
+.services__tips .services__sorts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .services__tips .services__sorts {
+    width: 40%;
+  }
+}
+
+.services__tips .services__sorts .services__sort h4 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  color: #1f373d;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  .services__tips .services__sorts .services__sort h4 {
+    padding-bottom: 30px;
+  }
+}
+
+.services__tips .services__sorts .services__sort p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #1f373d;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1024px) {
+  .services__tips .services__sorts .services__sort p {
+    padding-bottom: 60px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
